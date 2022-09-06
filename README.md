@@ -1,6 +1,6 @@
 # About
-<!-- This project is the result of a challenge proposed by the company Agrisafe.
-The project proposal is the creation of an API to manage a "Shipping company" -->
+This project is the result of a challenge proposed by the company APP NOZ.
+The project proposal is the creation of an API to manage a "Library"
 
 # Technology stack
 This is application using 
@@ -9,13 +9,13 @@ This is application using
 - postgresql
 
 # Database diagram
-<!-- ![library](https://github.com/ArcelinoNeto/shipping_company-api/blob/master/shipping.png) -->
+![library](https://github.com/ArcelinoNeto/library-api/blob/master/library.png)
 
 ## Set up
 
 1. Clone the project
 ```
-<!-- git clone https://github.com/ArcelinoNeto/shipping_company-api.git -->
+git clone https://github.com/ArcelinoNeto/library-api.git
 ```
 ```
 cd library-api
