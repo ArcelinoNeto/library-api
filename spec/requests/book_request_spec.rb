@@ -10,7 +10,7 @@ RSpec.describe "Books", type: :request do
         it "returns all Books" do 
             get url
 
-            # expected_books = books.as_json(only: %i(id title)).to_json
+            expected_books = books.as_json(only: %i(id title)).to_json
             # binding.pry
             # expect(books.as_json(only: %i(id title)).to_json).to match_array expected_books
         end
