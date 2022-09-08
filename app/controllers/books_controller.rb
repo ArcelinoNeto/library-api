@@ -5,7 +5,7 @@ class BooksController < ApplicationController
   def index
     @books = BookSearch.new(params).results
 
-    render json: @books
+    render json: @books, include: :author, root: true
   end
 
   # GET /books/1
