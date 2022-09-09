@@ -10,9 +10,8 @@ RSpec.describe "Authors", type: :request do
         it "returns all Authors" do 
             get url
 
-            expected_authors = authors.as_json(only: %i(id name)).to_json
-            # binding.pry
-            # expect(authors.as_json(only: %i(id name))).to match_array expected_authors
+            expected_authors = authors.as_json(only: %i(id name))
+            expect(authors.as_json(only: %i(id name))).to match_array expected_authors
         end
 
         it "return sucess status" do 
