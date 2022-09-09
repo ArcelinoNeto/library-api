@@ -12,7 +12,7 @@ RSpec.describe "Books", type: :request do
 
             expected_books = books.as_json(only: %i(id title)).to_json
             # binding.pry
-            # expect(books.as_json(only: %i(id title)).to_json).to match_array expected_books
+            # expect(books.as_json(only: %i(id title))).to match_array expected_books
         end
 
         it "return sucess status" do 

@@ -12,7 +12,7 @@ RSpec.describe "Authors", type: :request do
 
             expected_authors = authors.as_json(only: %i(id name)).to_json
             # binding.pry
-            # expect(authors.as_json(only: %i(id name)).to_json).to match_array expected_authors
+            # expect(authors.as_json(only: %i(id name))).to match_array expected_authors
         end
 
         it "return sucess status" do 
