@@ -24,7 +24,7 @@ namespace :dev do
       )
     end
 
-    puts "Autores cadastrandos com sucesso!"
+    puts "Autores cadastrados com sucesso!"
     puts "  "
 
     puts "Cadastrando Livros!"
@@ -40,7 +40,7 @@ namespace :dev do
         etc: Faker::GreekPhilosophers.quote
       )
     end
-    puts "Livros cadastrandos com sucesso!"
+    puts "Livros cadastrados com sucesso!"
 
   end
 
